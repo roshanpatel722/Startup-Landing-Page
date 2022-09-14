@@ -12,13 +12,39 @@ html {
 
 h1 {
   font-size: 3rem;
-  color: #e2dbdb;
+  color: #ee088a;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #ee088ad5;
+  border-color: #ee088ab8;
+  border-width: 3px;
+  --bs-btn-hover-bg: #08eea5cd;
+  --bs-btn-hover-border-color:#08eea5a8;
+}
+
+.btn-primary:hover {
+  border-width: 4px;
+}
+
+.buffer {
+  height: 10rem;
 }
 
 hr {
   margin: 20px auto;
-  color: #F05F44;
-  border: 3px solid #F05F44;
-  max-width: 65px;
-  opacity: 1;  
+  /* color: #F05F44; */
+  border-top: 3px solid #ee088a;
+  max-width: 67px;
+  opacity: 1 
 }
